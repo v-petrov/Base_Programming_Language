@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1646746255 source:e:\c\array_tasks\main.c
+	"array_h.h"
+
+1646746212 e:\c\array_tasks\array_h.h
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
+1646746388 source:e:\c\array_tasks\array_c.c
+	"array_h.h"
+

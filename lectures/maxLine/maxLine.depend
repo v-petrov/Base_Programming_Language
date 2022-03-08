@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1645017562 source:e:\c\maxline\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1645017562 source:e:\c\lectures\maxline\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

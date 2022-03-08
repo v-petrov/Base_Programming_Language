@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1644908739 source:e:\c\lecture_data\main.c
+	<stdio.h>
+	<stdlib.h>
+	<limits.h>
+	<time.h>
+

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1644924257 source:e:\c\powerdemo\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+

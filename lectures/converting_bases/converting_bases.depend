@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1646315616 source:e:\c\converting_bases\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1646749115 source:e:\c\math_functions\main.c
+	"sin_h.h"
+
+1646750085 e:\c\math_functions\sin_h.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
+1646749060 source:e:\c\math_functions\sin_c.c
+	"sin_h.h"
+
