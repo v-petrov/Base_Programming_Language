@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1648055171 source:e:\c\sem_ex\sem_ex_3\sem_ex_3.c
+	"sem_ex_3.h"
+
+1648055171 e:\c\sem_ex\sem_ex_3\sem_ex_3.h
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
+1648057479 source:e:\c\sem_ex\sem_ex_3\main.c
+	"sem_ex_3.h"
+
