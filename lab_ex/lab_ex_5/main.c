@@ -114,5 +114,100 @@ int main()
     }
 
     printf("\nThe min sum is: %d", min_sum);
+
+    //#5 - magic square
+    int n;
+    printf("N: ");
+    scanf("%d", &n);
+
+    int sum_md = 0, cnt = 1, sum = 0, ff = 0;
+    int magic_square[n][n];
+
+    for(int i = 0; i < n; i++)
+    {
+        for(int j = 0; j < n; j++)
+        {
+            printf("magic_square[%d][%d]: ", i,j);
+            scanf("%d", &magic_square[i][j]);
+        }
+        printf("\n");
+    }
+
+    for(int i = 0; i < n; i++)
+    {
+        for(int j = 0; j < n; j++)
+        {
+            printf("%d ", magic_square[i][j]);
+        }
+        printf("\n");
+    }
+
+    for(int i = 0; i < n; i++)
+    {
+        sum_md += magic_square[i][i];
+    }
+
+    for(int i = 0; i < n; i++)
+    {
+        for(int j = 0; j < n; j++)
+        {
+            sum += magic_square[i][j];
+        }
+        if(sum_md == sum)
+        {
+            cnt++;
+            sum = 0;
+        }
+        else
+        {
+            printf("\nNot a magic square!!!");
+            ff = 1;
+            break;
+        }
+    }
+    if(ff == 0)
+    {
+        for(int j = 0; j < n; j++)
+        {
+            for(int i = 0; i < n; i++)
+            {
+                sum += magic_square[i][j];
+            }
+            if(sum_md == sum)
+            {
+                cnt++;
+                sum = 0;
+            }
+            else
+            {
+                printf("\nNot a magic square!!!");
+                ff = 1;
+                break;
+            }
+        }
+    }
+    if(ff == 0)
+    {
+        for(int i = 0; i < n; i++)
+        {
+            int j = n - 1;
+            sum += magic_square[i][j];
+            j--;
+        }
+        if(sum_md == sum)
+        {
+            cnt++;
+            sum = 0;
+        }
+        else
+        {
+            printf("\nNot a magic square!!!");
+        }
+    }
+
+    if(cnt == n*2 + 2)
+    {
+        printf("\nIt's a magic square, with sum of %d", sum_md);
+    }
     return 0;
 }
