@@ -1,5 +1,6 @@
 # depslib dependency file v1.0
-1648806958 source:e:\c\lab_ex\lab_ex_6\main.c
+1648823807 source:e:\c\lab_ex\lab_ex_6\main.c
 	<stdio.h>
 	<stdlib.h>
+	<time.h>
 
