@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1649160742 source:e:\c\lectures\dynamic_arrays\main.c
+	"dynamic_arrays.h"
+
+1649160861 e:\c\lectures\dynamic_arrays\dynamic_arrays.h
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
+1649160860 source:e:\c\lectures\dynamic_arrays\dynamic_arrays.c
+	"dynamic_arrays.h"
+
