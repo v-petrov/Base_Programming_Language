@@ -4,8 +4,8 @@
 
 int main()
 {
-    // Task #1
-/*    for(int i = 1; i <= 10; ++i)
+    //#1
+    for(int i = 1; i <= 10; ++i)
     {
         switch(i)
         {
@@ -40,10 +40,10 @@ int main()
                 printf("%d => Ten\n", i);
                 break;
         }
-    }*/
+    }
 
-    // Task #2
-/*    char x = '*';
+    //#2
+    char x = '*';
     for(int i = 1; i <= 10; ++i)
     {
         for(int j = 1; j <= i; ++j)
@@ -51,10 +51,10 @@ int main()
             printf("%c", x);
         }
         printf("\n");
-    }*/
+    }
 
-    // Task #3
-/*    char c, ws = ' ';
+    //#3
+    char c, ws = ' ';
     int width,length;
     printf("Enter a char: ");
     scanf("%c", &c);
@@ -83,10 +83,10 @@ int main()
             printf("%c", c);
         }
         printf("\n");
-    }*/
+    }
 
-    // Task #5
-/*    int n;
+    //#5
+    int n;
     float inches,cm,mm,dm,m;
     printf("Enter inches: ");
     scanf("%g", &inches);
@@ -114,19 +114,19 @@ int main()
             break;
         default:
             printf("Invalid metric converter!!!");
-    }*/
+    }
 
-    // Task #10
-/*  double angle,val,ret;
+    //#10
+    double angle,val,ret;
     printf("Enter an angle: ");
     scanf("%lf", &angle);
 
     val = 3.14159265 / 180;
     ret = sin(angle*val);
-    printf("The sine of %lf is %lf degrees", angle, ret); */
+    printf("The sine of %lf is %lf degrees", angle, ret);
 
-    // Task #14
-/*    double ppk_veg,ppk_fruit,veg_k,fruit_k,profit;
+    //#14
+    double ppk_veg,ppk_fruit,veg_k,fruit_k,profit;
     printf("Enter the price for a killogram of vegetables in leva: ");
     scanf("%lf", &ppk_veg);
     printf("Enter the price for a killogram of fruits in leva: ");
@@ -137,6 +137,6 @@ int main()
     scanf("%lf", &fruit_k);
 
     profit = (ppk_veg * veg_k + ppk_fruit * fruit_k) / 1.72;
-    printf("Your profit is: %lf $", profit); */
+    printf("Your profit is: %lf $", profit);
     return 0;
 }
