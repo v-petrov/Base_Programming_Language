@@ -115,7 +115,7 @@ int main()
 
     printf("\nThe min sum is: %d", min_sum);
 
-    //#5 - magic square
+    //#5
     int n;
     printf("N: ");
     scanf("%d", &n);
