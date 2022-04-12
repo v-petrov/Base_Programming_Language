@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1649767630 source:e:\c\lectures\struct_lecture\main.c
+	"struct.h"
+
+1649767714 e:\c\lectures\struct_lecture\struct.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
+1649767522 source:e:\c\lectures\struct_lecture\struct.c
+	"struct.h"
+
