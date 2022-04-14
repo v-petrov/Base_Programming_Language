@@ -209,5 +209,6 @@ int main()
     {
         printf("\nIt's a magic square, with sum of %d", sum_md);
     }
+
     return 0;
 }
