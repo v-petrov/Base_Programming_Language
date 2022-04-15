@@ -2,6 +2,8 @@
 #include <stdlib.h>
 #include <string.h>
 
+int polindrom(char *);
+
 int main()
 {
 //    //#1 - dynamically allocated memory for char array, itre the stingto find first interval - print after first interval
@@ -71,23 +73,91 @@ int main()
 //    printf("The count of the ' ' is: %d\n\n", c_ws);
 
     //#4 - char[bigger size] concetenate n-count string input "quit" || bigstr.size < bigstr.size+new_str
-    int size = 50 * sizeof(char);
-    char *BIG_str, *str;
-    BIG_str = (char *)malloc(size);
-    str = (char *)malloc(size);
-    fgets(str, size, stdin);
-    strcpy(BIG_str, str);
+//    int size = 50 * sizeof(char);
+//    char *BIG_str, *str;
+//    BIG_str = (char *)malloc(size);
+//    str = (char *)malloc(size);
+//    fgets(str, size, stdin);
+//    strcpy(BIG_str, str);
+//    while(1)
+//    {
+//        fgets(str, size, stdin);
+//        if(!strcmp(str, "quit\n\0") || strlen(BIG_str) + strlen(str) > size)
+//        {
+//            break;
+//        }
+//        strcat(BIG_str, str);
+//    }
+//
+//    printf("\n%s\n", BIG_str);
+
+    //#5 - checking for a polindrom
+//    char *str;
+//    str = (char*)malloc(25*sizeof(char));
+//    printf("Enter a word: ");
+//    scanf("%[^\n]s", str);
+//    fflush(stdin);
+//    printf("%d ", polindrom(str));
+
+    //#6 - guessing the word
+    char word[] = "tottenham";
+    char guess[] = "_________";
+    int cnt_;
+
     while(1)
     {
-        fgets(str, size, stdin);
-        if(!strcmp(str, "quit\n\0") || strlen(BIG_str) + strlen(str) > size)
+        char c;
+        printf("Input a char: ");
+        scanf("%c", &c);
+        fflush(stdin);
+
+        for(int i = 0; i < strlen(word); i++)
         {
+            if(c == word[i])
+            {
+                guess[i] = c;
+            }
+        }
+
+        printf("%s\n", guess);
+
+        for(int i = 0; i < strlen(guess); i++)
+        {
+            cnt_ = 0;
+            if('_' == guess[i])
+            {
+                cnt_++;
+                break;
+            }
+        }
+
+        if(!cnt_)
+        {
+            printf("\nCongratulations, You have guessed the word!\n");
             break;
         }
-        strcat(BIG_str, str);
+    }
+    return 0;
+}
+
+int polindrom(char *s)
+{
+    int cnt = 0, j = strlen(s);
+    for(int i = 0; i < strlen(s) / 2; i++)
+    {
+        if(s[i] == s[j - 1])
+        {
+            cnt++;
+            j--;
+        }
     }
 
-    printf("\n%s\n", BIG_str);
-
-    return 0;
+    if(cnt == strlen(s) / 2)
+    {
+        return 1;
+    }
+    else
+    {
+        return 0;
+    }
 }
