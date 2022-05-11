@@ -1,0 +1,11 @@
+17112: Ivan Ivanov Ivanov; Mat: 6 6 6 BG: 6 5 6 4 4 IT: 6 3
+17113: Vasil Ivanov Stoyanov; Mat: 6 5 3 BG: 6 2 3 4 IT: 6 3 5 4
+17114: Petur Ivanov Bojikov; Mat: 4 5 2 BG: 3 4 6 2 2 IT: 5 2 4
+17115: Martin Ivanov Bojikov; Mat: 5 5 2 BG: 2 5 5 4 2 IT: 3 2 6
+23401: Atanas Ivanov Bojikov; Mat: 3 5 4 BG: 3 6 2 3 3 IT: 4 3 5
+23402: Qncho Ivanov Bojikov; Mat: 3 5 6 BG: 5 3 4 5 6 IT: 6 5 6
+23403: Daniel Ivanov Bojikov; Mat: 3 4 2 BG: 6 5 3 2 5 IT: 4 3 5
+23404: Ivan Ivanov Bojikov; Mat: 3 2 2 BG: 2 4 4 3 2 IT: 5 5 5
+23405: Svetlin Ivanov Bojikov; Mat: 5 5 2 BG: 3 6 3 4 2 IT: 2 3 6
+23406: Boril Ivanov Bojikov; Mat: 3 6 2 BG: 3 2 3 5 6 IT: 3 4 5
+23407: Stansilav Ivanov Bojikov; Mat: 4 5 5 BG: 4 3 5 2 5 IT: 2 5 6
