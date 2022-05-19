@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1652469410 source:e:\c\lab_ex\lab_ex_11\main.c
+	"lab_ex_11.h"
+
+1652469391 e:\c\lab_ex\lab_ex_11\lab_ex_11.h
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+
