@@ -1,0 +1,6 @@
+Ivan;38;Bulgaria;200000;1
+Rado;47;Canada;900300;3
+Stoyan;38;Bulgaria;23003000;1
+Petyr;47;Canada;90003000;3
+Gosho;38;Bulgaria;20000;1
+Valentin;47;Canada;90000000;34

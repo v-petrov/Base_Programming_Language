@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1653292527 source:e:\c\example_term1\main.c
+	"example_term1.h"
+
+1653292527 e:\c\example_term1\example_term1.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
