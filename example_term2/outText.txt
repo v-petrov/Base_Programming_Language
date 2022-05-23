@@ -1,0 +1,35 @@
+Meat: Meat
+ID: 123
+Expire Date: 2022.09.22
+Price: 23.23
+
+Meat: Cheese
+ID: 234
+Expire Date: 2023.10.28
+Price: 12.00
+
+Meat: Coca-cola
+ID: 456
+Expire Date: 2024.05.15
+Price: 2.99
+
+Meat: Milk
+ID: 567
+Expire Date: 2022.22.05
+Price: 1.99
+
+Meat: Rice
+ID: 789
+Expire Date: 2022.22.05
+Price: 1.50
+
+Meat: Eggs
+ID: 897
+Expire Date: 2022.22.05
+Price: 2.99
+
+Meat: Bread
+ID: 345
+Expire Date: 2022.09.09
+Price: 23.00
+
