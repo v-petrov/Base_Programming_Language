@@ -1,0 +1,2 @@
+12;Vasil Petrov;AA2345;35.00;567
+12;Boyan Petrov;AB5678;45.00;890
